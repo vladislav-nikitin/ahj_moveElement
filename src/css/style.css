@@ -1,0 +1,16 @@
+.board {
+	display: flex;
+	flex-wrap: wrap;
+	width: 200px;
+	height: 200px;
+  margin: 0 auto;
+	border: 1px solid black;
+	background-color: rgb(236, 227, 146);
+}
+
+.cell {
+	width: 25%;
+	height: 25%;
+	box-sizing: border-box;
+	border: 1px solid black;
+}
