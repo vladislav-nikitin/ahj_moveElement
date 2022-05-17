@@ -1,4 +1,4 @@
-import Game from "./game";
+import Game from './game';
 
 const board = document.querySelector('.board');
 const char = document.querySelector('.goblin');

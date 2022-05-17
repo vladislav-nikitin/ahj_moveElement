@@ -13,7 +13,7 @@ export default class Game {
     cell.classList.add('cell');
     return cell;
   }
-  
+
   createBoard() {
     for (let i = 0; i < this.boardSize ** 2; i += 1) {
       this.board.append(Game.createCell());
@@ -32,7 +32,7 @@ export default class Game {
   start() {
     this.board.children[this.startPosition].append(this.char);
     setInterval(() => {
-      let position = this.generatePosition();
+      const position = this.generatePosition();
       this.board.children[position].append(this.char);
     }, 1000);
   }
