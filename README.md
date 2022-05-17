@@ -1,3 +1,4 @@
+[![Build status](https://ci.appveyor.com/api/projects/status/49t2fqy9tcvrv8d2?svg=true)](https://ci.appveyor.com/project/vladislav-nikitin/ahj-moveelement)
 ### Перемещение элемента
 
 #### Легенда
