@@ -1,9 +1,7 @@
-import Board from './board';
-import Character from './character';
-import Game from './game';
+import Game from "./game";
 
-const board = new Board();
-const goblin = new Character();
-const game = new Game(board, goblin);
+const board = document.querySelector('.board');
+const char = document.querySelector('.goblin');
+const game = new Game(board, char);
 
 game.start();
